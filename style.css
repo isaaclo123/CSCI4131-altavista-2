@@ -82,8 +82,7 @@ nav .search a {
 }
 
 article {
-  grid-column-start: 1;
-  grid-column-end: 4;
+  grid-column: 1/ 4;
 }
 
 article .source {
@@ -92,6 +91,7 @@ article .source {
 
 section {
   grid-column: 1 / 4;
+  word-spacing: 0.2rem;
 }
 
 aside {
@@ -103,4 +103,17 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+hr {
+  border: none;
+  height: 0.15rem;
+  background-color: #ffcc00;
+  color: #ffcc00;
+
+}
+
+footer {
+  word-spacing: 0.2rem;
+  grid-column: 1/ 4;
 }
