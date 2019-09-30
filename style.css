@@ -1,0 +1,69 @@
+/*
+https://web.archive.org/web/20021001072403/http://www.altavista.com/
+*/
+
+html {
+  font-family:arial,helvetica,sans-serif;
+}
+
+body {
+  width: 44rem;
+  height: 100%;
+  margin: auto;
+}
+
+header {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+nav .menu {
+  padding: 0.4rem 0.7rem 0.4rem 0.7rem;
+  height: 5rem;
+  margin: 0.025rem;
+  background-color: #e5e5e5;
+  color: #333333;
+  font-size: 0.9rem;
+}
+
+nav .menu.active {
+  padding-top: 0.3rem;
+  background-color: #ffcc00;
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+nav .settings {
+  margin-top: 0.3rem;
+  float: right
+}
+
+nav .settings a {
+  font-size: 0.9rem;
+  color: #666666;
+}
+
+nav .search {
+  padding: 1.2rem;
+  background-color: #ffcc00;
+  margin-top: 0.4rem;
+  letter-spacing: 0.2rem;
+}
+
+nav .search input {
+  width: 20rem;
+}
+
+nav .search button {
+  font-size: 1.0rem
+}
+
+nav .search a {
+  margin-left: 0.4rem;
+  letter-spacing: 0;
+  color:black;
+}
+nav .search a:hover {
+  color:red;
+}
