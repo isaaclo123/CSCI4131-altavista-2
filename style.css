@@ -7,14 +7,26 @@ html {
 }
 
 body {
-  width: 44rem;
+  width: 38rem;
   height: 100%;
   margin: auto;
+
+  display: grid;
+  grid-template-columns: 11rem 15rem auto;
+  grid-gap: 1rem 1rem;
+}
+
+a:hover {
+  color:red;
 }
 
 header {
-  margin-top: 4rem;
-  margin-bottom: 2rem;
+  margin: 4rem -3rem 2rem -3rem;
+  grid-column: 1 / 4;
+}
+
+nav {
+  grid-column: 1 / 4;
 }
 
 nav .menu {
@@ -64,6 +76,27 @@ nav .search a {
   letter-spacing: 0;
   color:black;
 }
-nav .search a:hover {
-  color:red;
+
+article {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+article .source {
+  color: #999999
+}
+
+section {
+  grid-column: 1 / 4;
+}
+
+aside {
+  border: 0.1rem solid #ffcc00;
+  padding: 0.5rem 0.25rem 0.25rem 0.25rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
