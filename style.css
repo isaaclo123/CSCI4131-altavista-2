@@ -38,6 +38,10 @@ nav .menu {
   font-size: 0.9rem;
 }
 
+nav .menu:hover {
+  color: red;
+}
+
 nav .menu.active {
   padding-top: 0.3rem;
   background-color: #ffcc00;
